@@ -120,7 +120,7 @@ let BMWAndAudi = inventory.filter((car) => {
     }
     return false;
 })
-console.log(BMWAndAudi);
+console.log(JSON.stringify(BMWAndAudi));
 
 
 
